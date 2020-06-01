@@ -83,7 +83,7 @@ body {
     right: 3%;
     height: 50px;
     width: 50px;
-    background: #e2cb36;
+    background: #d1be42;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -245,7 +245,7 @@ body {
     #mainNav.navbar-shrink {
         padding-top: 0;
         padding-bottom: 0;
-        background-color: #222222;
+        background-color: #b91f1f;
     }
     #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
