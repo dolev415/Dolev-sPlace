@@ -27,8 +27,8 @@ function renderGallery() {
     document.querySelector('.gallery-container').innerHTML = strHtmls.join('')
 }
 //put the chupchik of the writing on the first line
-function focusWriting(lineInx) {
-    let elCurrLine = document.getElementById(lineInx);
+function focusWriting(lineIdx) {
+    let elCurrLine = document.getElementById(lineIdx);
     elCurrLine.focus()
 }
 // rendering the meme 

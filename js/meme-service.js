@@ -25,7 +25,7 @@ var gImgs = [
 
 var gMeme = {
     selectedImgId: 3,
-    selectedLineIdx: 1,
+    selectedLineIdx: 80,
     lines: [{
             txt: '',
             size: 50,
@@ -74,5 +74,7 @@ function changeLineHeight(diff) {
 
 function switchLines() {
     gMeme.selectedLineIdx++
-        if (gMeme.selectedLineIdx >= gMeme.lines.length) gMeme.selectedLineIdx = 0
+        console.log(gMeme.selectedLineIdx);
+
+    if (gMeme.selectedLineIdx === gMeme.lines.length) gMeme.selectedLineIdx = 0
 }
