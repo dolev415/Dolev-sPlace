@@ -1,0 +1,73 @@
+/* FONTS */
+
+@font-face {
+    font-family: impact;
+    src: url(../fonts/Impact/impact.ttf);
+}
+
+
+/* BASE */
+
+html {
+    font-family: lato, sans-serif;
+    color: #070707;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+body {
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
+canvas {
+    display: block;
+}
+
+.canvas-container {
+    background-color: rgb(216, 216, 216);
+    margin: auto;
+    width: 550px;
+    height: 550px;
+    border: 1px solid black;
+}
+
+.clean-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: s;
+}
+
+img {
+    height: 5rem;
+    width: 5rem;
+    padding: 1rem;
+    cursor: pointer;
+    margin: 1rem;
+    border: 1px solid #ccc;
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(1.2);
+    border: 2px solid rgb(185, 15, 15);
+}
+
+h1 {
+    color: tomato;
+}
+
+.sectors {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid rgb(49, 28, 240);
+}
